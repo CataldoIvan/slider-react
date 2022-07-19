@@ -1,0 +1,36 @@
+*{
+    background-color: rgb(226, 225, 225);
+}
+
+.slider{
+    width: 800px;
+    margin: auto;
+    position: relative;
+    margin-top: 15px;
+}
+.img{
+    height: 200px;
+    width: 100%;
+    margin: auto;
+}
+
+.next,.back{
+    position: absolute;
+    background-color: transparent;
+    width: 15%;
+    height: 100%;
+    font-size: 20px;
+    border: 0;
+    opacity: 0.2;
+}
+.next:hover,.back:hover{
+    color: white;
+    background-color: rgb(202, 202, 202) ;   
+    opacity:0.5;
+    border: none;
+}
+.next{
+    right: 0px;
+    top: 0px;
+   
+}
